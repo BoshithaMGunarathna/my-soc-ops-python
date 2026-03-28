@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🎯 Soc Ops
+# 💻 Tech Life Bingo
 
-### *Break the Ice, Make Connections*
+### *Developer Edition — Code, Culture & Chaos*
 
-**A modern social bingo game that turns awkward mixers into engaging conversations**
+**An interactive bingo game celebrating coding habits, IDE wars, and developer culture**
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-green.svg)](https://fastapi.tiangolo.com)
@@ -16,15 +16,15 @@
 
 ---
 
-## 🎮 What is Soc Ops?
+## 🎮 What is Tech Life Bingo?
 
-Soc Ops is an interactive **social bingo game** designed for in-person events, mixers, and team building. Instead of traditional icebreakers, participants explore a 5×5 bingo board filled with fun prompts and find people who match each square. Get 5 in a row to win!
+Tech Life Bingo is an interactive **developer-themed bingo game** built for tech events, team standups, hackathons, and engineering meetups. Each square on the 5×5 board features a relatable coding habit, IDE preference, or developer culture moment. Find fellow devs who match each square, mark your board, and get 5 in a row to win!
 
 Perfect for:
-- 🏢 **Corporate Events** - Team building and onboarding
-- 🎓 **Academic Settings** - Orientation and networking
-- 🎉 **Social Gatherings** - Conferences, meetups, and parties
-- 🤝 **Community Building** - Breaking down barriers in new groups
+- 🖥️ **Engineering Teams** - Onboarding, retrospectives, and team socials
+- 🎓 **Hackathons & Bootcamps** - Icebreakers for devs of all levels
+- 🎉 **Tech Meetups & Conferences** - Networking with a nerdy twist
+- 🤝 **Developer Communities** - Celebrating shared coding quirks
 
 ---
 
@@ -78,13 +78,13 @@ uvicorn app.main:app --reload
 
 ## 🎯 How to Play
 
-1. **Start a New Game** - Generate a fresh 5×5 bingo board
-2. **Explore the Prompts** - Read each square's question or challenge
-3. **Find Your Matches** - Mingle and find people who match the prompts
+1. **Start a New Game** - Generate a fresh 5×5 bingo board with developer prompts
+2. **Read the Squares** - Each square describes a coding habit or dev culture moment
+3. **Find Your Fellow Devs** - Talk to others and find someone who matches each square
 4. **Mark Your Board** - Click squares to track your progress
 5. **Get 5 in a Row** - Complete a line (horizontal, vertical, or diagonal) to win!
 
-> 💡 **Pro Tip:** The center square is a free space - it's already marked!
+> 💡 **Pro Tip:** The center square is a free space — it's already shipped!
 
 ---
 
