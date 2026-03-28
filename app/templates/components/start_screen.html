@@ -1,25 +1,54 @@
 <div id="game-container">
-<div class="flex flex-col items-center justify-center min-h-full p-6 bg-gray-50">
-    <div class="text-center max-w-sm">
-        <h1 class="text-4xl font-bold text-gray-900 mb-2">Soc Ops</h1>
-        <p class="text-lg text-gray-600 mb-8">Social Bingo</p>
-
-        <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200 mb-8">
-            <h2 class="font-semibold text-gray-800 mb-3">How to play</h2>
-            <ul class="text-left text-gray-600 text-sm space-y-2">
-                <li>• Find people who match the questions</li>
-                <li>• Tap a square when you find a match</li>
-                <li>• Get 5 in a row to win!</li>
-            </ul>
+<div class="flex flex-col items-center justify-center min-h-full p-6 bg-gradient-nature">
+    <div class="text-center max-w-sm animate-fade-in">
+        <!-- Hero Section -->
+        <div class="mb-12">
+            <h1 class="text-5xl font-bold font-heading text-nature-dark mb-3 animate-stagger-1">Soc Ops</h1>
+            <p class="text-xl text-nature-mid font-heading font-medium animate-stagger-2">Break the Ice, Make Connections</p>
+            <p class="text-sm text-nature-base mt-2 animate-stagger-3">A modern social bingo game for mixers and team building</p>
         </div>
 
+        <!-- Rules Section -->
+        <div class="mb-8 space-y-3 animate-stagger-4">
+            <div class="bg-white rounded-organic p-4 shadow-base border-2 border-nature-light hover:shadow-md transition-all hover:scale-[1.02] hover:border-nature-mid">
+                <div class="flex items-start gap-3 text-left">
+                    <span class="text-2xl flex-shrink-0">🎯</span>
+                    <div>
+                        <h3 class="font-semibold text-nature-dark text-sm">Find Matches</h3>
+                        <p class="text-xs text-gray-600 mt-1">Mingle and find people who match the questions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-organic p-4 shadow-base border-2 border-nature-light hover:shadow-md transition-all hover:scale-[1.02] hover:border-nature-mid">
+                <div class="flex items-start gap-3 text-left">
+                    <span class="text-2xl flex-shrink-0">✓</span>
+                    <div>
+                        <h3 class="font-semibold text-nature-dark text-sm">Mark Squares</h3>
+                        <p class="text-xs text-gray-600 mt-1">Tap a square when you find a match</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white rounded-organic p-4 shadow-base border-2 border-nature-light hover:shadow-md transition-all hover:scale-[1.02] hover:border-nature-mid">
+                <div class="flex items-start gap-3 text-left">
+                    <span class="text-2xl flex-shrink-0">🎉</span>
+                    <div>
+                        <h3 class="font-semibold text-nature-dark text-sm">Get 5 in a Row</h3>
+                        <p class="text-xs text-gray-600 mt-1">Complete a line to win!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA Button -->
         <button
             hx-post="/start"
             hx-target="#game-container"
             hx-swap="outerHTML"
-            class="w-full bg-accent text-white font-semibold py-4 px-8 rounded-lg text-lg active:bg-accent-light transition-colors">
+            class="w-full bg-nature-base text-white font-bold py-4 px-8 rounded-organic text-lg font-heading transition-all hover:shadow-neon hover:scale-105 focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-neon animate-stagger-5">
             Start Game
         </button>
+        
+        <p class="text-xs text-nature-mid mt-6">✨ Perfect for events, teams, and new communities</p>
     </div>
 </div>
 </div>
